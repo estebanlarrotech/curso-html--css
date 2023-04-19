@@ -1,0 +1,24 @@
+
+/*Esta regla dice, todo parrafo que está cerca a h2
+le plaica color rojo
+h2 + p {
+    color: red;
+}
+*/
+
+
+/*  Desendiente General
+h2 ~ p {
+    color: red;
+}
+*/
+
+/* aplica al parrafo que es hijo directo de un div
+div > p {
+    color: red;
+}
+*/
+
+div  p {
+    color: red;
+}
