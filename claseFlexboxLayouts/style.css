@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/*Siempre debemos usar un contenedor principal para usar el flex*/
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+ background-color: rgb(243, 226, 205);
+ 
+}
+
+.box2 {
+    background-color: rgb(192, 159, 117);   
+
+   }
+
+   .box3 {
+    background-color: rgb(155, 127, 91);   
+   }
+
+   .box4 {
+    background-color: rgb(129, 101, 64);   
+   }
+
+   .box5 {
+    background-color: rgb(88, 65, 34);  
+    
+   }
+
+   .box6 {
+    background-color: rgb(70, 51, 24);   
+    
+    }
